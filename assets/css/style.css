@@ -1,0 +1,187 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.subtitulo, h4, h5 {
+    font-weight: 350;
+}
+
+#ubicacion h2 {
+    margin: 15px auto;
+}
+
+.sweet-brown h3, .sweet-brown h5 {
+    margin-bottom: 6px;
+}
+
+#eventos h2 {
+    margin-bottom: 15px;
+}
+
+#eventos h3 {
+    margin: 15px auto;
+}
+
+.oscuro {
+    background: black;
+    color: white;
+}
+
+.oscuro a {
+    color: white;
+}
+
+.sweet-brown {
+    text-align: left;
+    padding: 50px;
+    background: #a4452c;
+    color: white;
+}
+
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px 50px;
+}
+
+section, footer {
+    margin-top: 70px;
+}
+
+footer {
+    padding: 50px;
+}
+
+.centrado {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.charla-speaker, .charla-texto, .evento {
+    display: inline-block;
+}
+
+.charla-speaker {
+    width: 25%;
+    vertical-align: middle;
+}
+
+.charla-texto {
+    width: 70%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+}
+
+.evento {
+    width: 25%;
+}
+
+.evento img {
+    width: 75%;
+}
+
+nav {
+    text-align: left;
+    padding: 20px 60px;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+.icono {
+    width: 30px;
+}
+
+.icono svg {
+    fill: white;
+}
+
+footer i {
+    margin: 0 5px 10px 5px;
+}
+
+.contenedor {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+}
+
+.bloque div {
+    text-align: left;
+    /* position: ; */
+}
+
+/* simposio */
+#header {
+    padding-top: 100px;
+}
+
+#header h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    text-align: left;
+}
+
+#header img {
+    width: 50%;
+}
+#parrafo p {
+    text-align: left;
+    line-height: 1.5;
+    padding: 0 25% 0 25%;
+}
+
+#parrafoDos h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    text-align: left;
+}
+
+#parrafoDos p {
+    text-align: left;
+    line-height: 1.5;
+    padding: 0 25% 0 25%;
+}
